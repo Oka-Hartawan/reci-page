@@ -140,6 +140,7 @@ ol li strong {
   padding: 1rem;
   border-radius: 8px;
   margin-top: 1rem;
+  align-items: center;
 }
 .nutrition-list {
   display: flex;
@@ -153,6 +154,9 @@ ol li strong {
   padding: 0.5rem 0;
   border-bottom: 1px solid var(--light-grey);
   list-style: none;
+  /* justify-content: center; */
+  margin-right: 6rem;
+  margin-left: 3rem;
 }
 
 .nutrition-style {
