@@ -141,17 +141,24 @@ ol li strong {
   border-radius: 8px;
   margin-top: 1rem;
 }
-
+.nutrition-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
 .nutrition-row {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   padding: 0.5rem 0;
   border-bottom: 1px solid var(--light-grey);
+  list-style: none;
 }
 
 .nutrition-style {
   font-weight: 700;
   color: var(--nutmeg);
+  list-style: none;
 }
 
 footer {

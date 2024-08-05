@@ -17,6 +17,7 @@
     <title>Frontend Mentor | Recipe page</title>
   </head>
   <body>
+    <script src="./index.js" defer></script>
     <div class="container">
       <header>
         <img
@@ -35,35 +36,35 @@
       </header>
 
       <section class="preparation-time-container">
-        <div class="preparation-time">
+        <div class="preparation-time" id="preparation">
           <h2 class="h2-preparation-time">Preparation time</h2>
           <ul>
-            <li><strong>Total:</strong> Approximately 10 minutes</li>
+            <!-- <li><strong>Total:</strong> Approximately 10 minutes</li>
             <li><strong>Preparation:</strong> 5 minutes</li>
-            <li><strong>Cooking:</strong> 5 minutes</li>
+            <li><strong>Cooking:</strong> 5 minutes</li> -->
           </ul>
         </div>
       </section>
 
-      <section>
+      <section id="Ingredients">
         <h2>Ingredients</h2>
         <ul>
-          <li>2-3 large eggs</li>
+          <!-- <li>2-3 large eggs</li>
           <li>Salt, to taste</li>
           <li>Pepper, to taste</li>
           <li>1 tablespoon of butter or oil</li>
           <li>
             Optional fillings: cheese, diced vegetables, cooked meats, herbs
-          </li>
+          </li> -->
         </ul>
       </section>
 
-      <section class="section2">
+      <section class="section2" id="Instructions">
         <div class="border">
           <h2>Instructions</h2>
         </div>
         <ol>
-          <li>
+          <!-- <li>
             <strong>Beat the eggs:</strong> In a bowl, beat the eggs with a
             pinch of salt and pepper until they are well mixed. You can add a
             tablespoon of water or milk for a fluffier texture.
@@ -90,7 +91,7 @@
           <li>
             <strong>Enjoy:</strong> Serve hot, with additional salt and pepper
             if needed.
-          </li>
+          </li> -->
         </ol>
       </section>
 
@@ -102,23 +103,33 @@
           The table below shows nutritional values per serving without the
           additional fillings.
         </p>
-        <div class="nutrition-table">
-          <div class="nutrition-row">
-            <span class="nutrition-style1">Calories</span>
-            <span class="nutrition-style2">277kcal</span>
-          </div>
-          <div class="nutrition-row">
-            <span class="nutrition-style1">Carbs</span>
-            <span class="nutrition-style2">0g</span>
-          </div>
-          <div class="nutrition-row">
-            <span class="nutrition-style1">Protein</span>
-            <span class="nutrition-style2">20g</span>
-          </div>
-          <div class="nutrition-row">
-            <span class="nutrition-style1">Fat</span>
-            <span class="nutrition-style2">22g</span>
-          </div>
+        <div class="nutrition-table" id="nutrition">
+          <ul class="nutrition-list">
+            <li>
+              <ul class="nutrition-row">
+                <li class="nutrition-style1"></li>
+                <li class="nutrition-style2"></li>
+              </ul>
+            </li>
+            <li>
+              <ul class="nutrition-row">
+                <li class="nutrition-style1"></li>
+                <li class="nutrition-style2"></li>
+              </ul>
+            </li>
+            <li>
+              <ul class="nutrition-row">
+                <li class="nutrition-style1"></li>
+                <li class="nutrition-style2"></li>
+              </ul>
+            </li>
+            <li>
+              <ul class="nutrition-row">
+                <li class="nutrition-style1"></li>
+                <li class="nutrition-style2"></li>
+              </ul>
+            </li>
+          </ul>
         </div>
       </section>
 
